@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'links' => "pages#links", as: :links
 
+  get 'blog' => "pages#blog", as: :blog
+
   get 'contato' => "pages#contato", as: :contato
 
   # The priority is based upon order of creation: first created -> highest priority.

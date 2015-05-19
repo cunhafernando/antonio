@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def links
   end
 
+  def blog
+  end
+
   def contato
   end
 end
